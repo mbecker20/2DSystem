@@ -31,7 +31,7 @@ class IntegratePath2D {
             }
         } else {
             this.coolOff++;
-            if(this.coolOff>this.coolOffMax) {
+            if (this.coolOff>this.coolOffMax) {
                 this.coolOff=0;
                 this.justClicked=false;
             }
@@ -39,7 +39,7 @@ class IntegratePath2D {
     }
 
     stepAndDraw() {
-        for(var i=0;i<this.paths.length;i++) {
+        for (var i=0;i<this.paths.length;i++) {
             this.paths[i].exist();
         }
     }
@@ -54,11 +54,11 @@ class IntegratePath2D {
     }
 
     setupUI() {
-        
+
     }
 
     drawUI() {
         //updates and draws UI. facilitates interaction
-        
+
     }
 }
